@@ -71,6 +71,14 @@ If Duplicate Post is still in English, or if there are some untranslated strings
 
 == Changelog ==
 
+= 4.5 =
+Release Date: June 21st, 2022
+
+
+Other:
+
+* Sets the WordPress tested up to version to 6.0.
+
 = 4.4 =
 Release Date: January 25th, 2022
 
@@ -87,13 +95,6 @@ Bugfixes:
 Other:
 
 * Sets the WordPress tested up to version to 5.9.
-
-= 4.3 =
-Release Date: December 14th, 2021
-
-Bugfixes:
-
-* Fixes a bug where Rewrite & Republish copies could be displayed and queried in the front end.
 
 = Earlier versions =
 For the changelog of earlier versions, please refer to [the changelog on yoast.com](https://yoa.st/duplicate-post-changelog).

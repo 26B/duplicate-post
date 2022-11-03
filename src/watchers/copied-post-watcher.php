@@ -55,9 +55,14 @@ class Copied_Post_Watcher {
 
 		$scheduled_copy = $this->permissions_helper->has_scheduled_rewrite_and_republish_copy( $post );
 		if ( ! $scheduled_copy ) {
-			return \__(
-				'A duplicate of this post was made. Please note that any changes you make to this post will be replaced when the duplicated version is republished.',
-				'duplicate-post'
+			return \sprintf(
+				\__(
+					'A duplicate of this post was made: %1$s. Please note that any changes you make to this post will be replaced when the duplicated version is republished.',
+					'duplicate-post'
+				),
+				'<a href="' .
+				\get_edit_post_link( $this->permissions_helper->get_rewrite_and_republish_copy( $post )->ID )
+				. '">link to copy</a>'
 			);
 		}
 
@@ -90,7 +95,7 @@ class Copied_Post_Watcher {
 
 		if ( $this->permissions_helper->has_rewrite_and_republish_copy( $post ) ) {
 			print '<div id="message" class="notice notice-warning is-dismissible fade"><p>'
-				. \esc_html( $this->get_notice_text( $post ) )
+				. $this->get_notice_text( $post )
 				. '</p></div>';
 		}
 	}

@@ -2,9 +2,20 @@
 
 ![Banner](svn-assets/banner-772x250.png)
 
-[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/duplicate-post.svg)](https://wordpress.org/plugins/duplicate-post/) ![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/duplicate-post.svg) [![WordPress Plugin Active Installs](https://img.shields.io/wordpress/plugin/installs/duplicate-post.svg)](https://wordpress.org/plugins/duplicate-post/advanced/) [![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/duplicate-post.svg)](https://wordpress.org/plugins/duplicate-post/advanced/) [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/duplicate-post.svg)](https://wordpress.org/support/plugin/duplicate-post/reviews/) [![GitHub](https://img.shields.io/github/license/Yoast/duplicate-post.svg)](https://github.com/Yoast/duplicate-post/blob/future/LICENSE) [![Build Status](https://travis-ci.org/Yoast/duplicate-post.svg?branch=develop)](https://travis-ci.org/Yoast/duplicate-post)
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/duplicate-post.svg)](https://wordpress.org/plugins/duplicate-post/)
+![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/duplicate-post.svg)
+[![WordPress Plugin Active Installs](https://img.shields.io/wordpress/plugin/installs/duplicate-post.svg)](https://wordpress.org/plugins/duplicate-post/advanced/)
+[![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/duplicate-post.svg)](https://wordpress.org/plugins/duplicate-post/advanced/)
+[![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/duplicate-post.svg)](https://wordpress.org/support/plugin/duplicate-post/reviews/)
+[![GitHub](https://img.shields.io/github/license/Yoast/duplicate-post.svg)](https://github.com/Yoast/duplicate-post/blob/future/LICENSE)
 
-> Duplicate Post plugin for WordPress https://yoast.com/wordpress/plugins/duplicate-post/  
+[![CS](https://github.com/Yoast/duplicate-post/actions/workflows/cs.yml/badge.svg)](https://github.com/Yoast/duplicate-post/actions/workflows/cs.yml)
+[![Lint](https://github.com/Yoast/duplicate-post/actions/workflows/lint.yml/badge.svg)](https://github.com/Yoast/duplicate-post/actions/workflows/lint.yml)
+[![Test](https://github.com/Yoast/duplicate-post/actions/workflows/test.yml/badge.svg)](https://github.com/Yoast/duplicate-post/actions/workflows/test.yml)
+[![Deployment](https://github.com/Yoast/duplicate-post/actions/workflows/deploy.yml/badge.svg)](https://github.com/Yoast/duplicate-post/actions/workflows/deploy.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Yoast/duplicate-post/badge.svg?branch=trunk)](https://coveralls.io/github/Yoast/duplicate-post?branch=trunk)
+
+> Duplicate Post plugin for WordPress https://yoast.com/wordpress/plugins/duplicate-post/
 
 This WordPress plugin allows users to clone posts of any type, or copy them to new drafts for further editing.
 
@@ -49,7 +60,7 @@ There is also a **template tag**, so you can put it in your templates and clone 
 
 ## API
 
-For functions, template tags and hooks refer to the [Developer's Guide](https://developer.yoast.com/duplicate-post/) on our developer site.
+For functions, template tags and hooks refer to the [Developer's Guide](https://developer.yoast.com/duplicate-post/overview/) on our developer site.
 
 ##  Maintainer
 

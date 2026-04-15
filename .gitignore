@@ -33,6 +33,7 @@ tests/cli/vendor
 /tests/bin/tmp
 /tests/e2e-tests/config/local-*.json
 /tests/e2e-tests/config/local.json
+build/
 
 ############
 ## Composer
@@ -47,13 +48,21 @@ composer.lock
 /.wordpress-svn
 
 ############
+## wp-env
+############
+.wp-env.override.json
+
+############
 ## Dev tool config overrides.
 ############
 .phpcs.xml
 phpcs.xml
 .cache/phpcs.cache
 phpunit.xml
+phpunit-integration.xml
+phpunit-wp.xml
 .phpunit.result.cache
+
 ############
 # Temp files
 ############

@@ -9,7 +9,7 @@ What do we want to achieve with this PR? Why did we write this code?
 
 <!--
 Attach one of the following labels to the PR: `changelog: bugfix`, `changelog: enhancement`, `changelog: other`, `changelog: non-user-facing`.
-If the changelog item is a bugfix, please use the following sentence structure: Fixes a bug where ... would ... (when ...).
+If the changelog item is a bugfix, describe the incorrect behaviour that occurred, followed by the condition that triggered it. Use clear, past tense language and avoid hypothetical or nested conditionals. Example structure: “Fixes a bug where... happened when/was caused by ...”
 If the changelog item is meant for the changelog of another repo, start you changelog item with the repo name between square brackets, for example: * [wordpress-seo-premium] Fixes a bug where ....
 If the same changelog item is applicable to multiple changelogs/repos, add a separate changelog item for all of them.
 -->
@@ -35,7 +35,7 @@ This PR can be acceptance tested by following these steps:
 #### Relevant test scenarios
 * [ ] Changes should be tested with the browser console open
 * [ ] Changes should be tested on different posts/pages/taxonomies/custom post types/custom taxonomies
-* [ ] Changes should be tested on different editors (Block/Classic/Elementor/other)
+* [ ] Changes should be tested on different editors (Default Block/Gutenberg/Classic/Elementor/other)
 * [ ] Changes should be tested on different browsers
 * [ ] Changes should be tested on multisite
 <!--
@@ -73,11 +73,16 @@ This PR affects the following parts of the plugin, which may require extra testi
 
 ## Documentation
 
-* [ ] I have written documentation for this change.
+* [ ] I have written documentation for this change. For example, comments in the Relevant technical choices, comments in the code, documentation on Confluence / shared Google Drive / [Yoast developer portal](https://developer.yoast.com/), or other.
 
 ## Quality assurance
 
 * [ ] I have tested this code to the best of my abilities
 * [ ] I have added unittests to verify the code works as intended
+
+## Innovation
+
+* [ ] No innovation project is applicable for this PR.
+* [ ] This PR falls under an innovation project. I have attached the `innovation` label and noted the work hours.
 
 Fixes #
